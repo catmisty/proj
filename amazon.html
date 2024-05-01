@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Product Box Model</title>
+    <style>
+        /* CSS for the product box */
+        .product-box {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        
+        }
+
+        /* CSS for the product image */
+        .product-image {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        /* CSS for the product details */
+        .product-details {
+            margin-top: 20px;
+        }
+
+        /* CSS for the product title */
+        .product-title {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        /* CSS for the product price */
+        .product-price {
+            color: #007185;
+            font-size: 16px;
+        }
+
+        /* CSS for the product description */
+        .product-description {
+            margin-top: 10px;
+            font-size: 15px;
+        }
+        .rating-stars {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+        font-size: 20px;
+        margin-bottom: 5px;
+    } */
+
+    /* Style for the empty star */
+    .rating-stars::before {
+        content: '☆☆☆☆☆'; */
+    }
+        .rating-stars::after {
+        content: '★★★★★';
+        color: #ffa500;
+        position:relative;
+    } 
+        /* css for button */
+    /* .rating-stars {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+        font-size: 25px;
+        display: inline-block;
+    } */
+
+    /* .rating-stars> span {
+        display: inline-block;
+        position: relative;
+        width: 1.1em;
+    }
+
+    .rating-stars > span:hover:before,
+    .rating-stars > span:hover ~ span:before {
+        content: "\2605";
+        position: absolute;
+        color: gold;
+    }
+
+    .rating > span:hover:before {
+        z-index: 3;
+    } */
+
+    </style>
+</head>
+<body>
+    <center>
+        <div class="product-box">
+            <img class="product-image" src="shopping.webp" alt="Product Image">
+            <div class="product-details">
+                <div class="product-title"><b>Casual Shirt</b></div>
+                <div class="product-price">Rs.99.9 </div>
+                <div class="product-description">Branded shirts with PULU brand only on "pandian stores"  <br><br><i>free delivery</i></br></div><br>
+                <div class="rating-stars"></div>
+                <div>5 out of 5 stars</div><br>
+                <button><b>buy now</b></button></br>
+            </div>
+        </div>
+    </center>
+    
+</body>
+</html> 
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amazon Box Model</title>
+<style>
+    /* Reset default browser styles */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Style for the Amazon box */
+    .amazon-box {
+        width: 300px;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Style for the product title */
+    .product-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    /* Style for the product description */
+    .product-description {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 10px;
+    }
+
+    /* Style for the product rating */
+    .product-rating {
+        color: #ffa500; /* Amazon's orange color for ratings */
+        margin-bottom: 10px;
+    }
+
+    /* Style for the rating stars */
+    .rating-stars {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    /* Style for the empty star */
+    .rating-stars::before {
+        content: '☆☆☆☆☆';
+    }
+
+    /* Style for the filled star */
+    .rating-stars::after {
+        content: '★★★★★';
+        color: #ffa500;
+        position: absolute;
+        top: 0;
+    }
+</style>
+</head>
+<body>
+
+<div class="amazon-box">
+    <div class="product-title">Product Title</div>
+    <div class="product-description">Product Description Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+    <div class="product-rating">
+        <div class="rating-stars"></div>
+        <div>4.5 out of 5 stars</div>
+    </div>
+</div>
+
+</body>
+</html>  -->
+
+
